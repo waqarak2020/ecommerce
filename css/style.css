@@ -627,6 +627,8 @@ form a{
    .cart-info p{
        display: none;
    }
-
+       nav ul{
+           z-index:3;
+    }
 
 }
