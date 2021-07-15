@@ -327,7 +327,7 @@ ul{
 
 /* media querry */
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:910px) {
     
     nav ul{
         position: absolute;
@@ -343,6 +343,7 @@ ul{
         box-sizing: border-box;
         overflow: hidden;
         transition: max-height 0.5s;
+        z-index:3;
     }
     nav ul li{
         display: block;
